@@ -1,0 +1,32 @@
+{
+  "name": "sitemakr-ui-service",
+  "version": "0.1.0",
+  "description": "SiteMakr Services for User Interface application",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philiplopez/sitemakr-ui-service.git"
+  },
+  "keywords": [
+    "static",
+    "site",
+    "generator"
+  ],
+  "author": "Philip Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philiplopez/sitemakr-ui-service/issues"
+  },
+  "homepage": "https://github.com/philiplopez/sitemakr-ui-service",
+  "devDependencies": {
+    "babel": "^5.8.20",
+    "sigh": "^0.12.22",
+    "sigh-babel": "^0.11.6"
+  },
+  "dependencies": {
+    "xr": "^0.1.13"
+  }
+}
