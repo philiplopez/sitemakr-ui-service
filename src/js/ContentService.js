@@ -61,6 +61,6 @@ export default class ContentService {
         // TODO: consider caching (although browser will too... CORS preflight OPTIONS)
         return this.getDocsInfoByID()
             .then(docsInfoByID => docsInfoByID[docId])
-            .then(docInfo => this.getRelative(docInfo.contentPath));
+            .then(docInfo => this.getRelative("content/" + docInfo.contentPath));
     }
 }

@@ -1,4 +1,4 @@
-import ContentService from "ContentService";
+import ContentService from "./ContentService";
 
 export default {
     ContentService
